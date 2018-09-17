@@ -1,6 +1,3 @@
-     
-26  index.js
-@@ -0,0 +1,26 @@
 function shout(string){
     return string.toUpperCase()
 }
@@ -14,5 +11,6 @@ function shout(string){
     console.log(string.toLowerCase())
 }
 function sayHiToGrandma(string){
-    if (string === string.toLowerCase()) {
+    if (string === string.toLowerCase()) 
         return "I can't hear you!"
+    }
